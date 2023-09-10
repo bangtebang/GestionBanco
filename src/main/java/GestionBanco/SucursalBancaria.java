@@ -24,7 +24,8 @@ public class SucursalBancaria {
 		this.codigoPostal = codigoPostal;
 	}
 
-	public SucursalBancaria() {
-		throw new UnsupportedOperationException();
+	public SucursalBancaria(int codigoSucursal, int codigoPostal) {
+		this.codigoSucursal = codigoSucursal;
+		this.codigoPostal = codigoPostal;
 	}
-}
+	}

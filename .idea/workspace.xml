@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="709f42a8-f4d7-4a99-904f-2bbdc455f14e" name="Changes" comment="" />
+    <list default="true" id="709f42a8-f4d7-4a99-904f-2bbdc455f14e" name="Changes" comment="suo codigo creado automaticamente con el modelo uml">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GestionBanco/Ahorro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GestionBanco/Ahorro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GestionBanco/Corriente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GestionBanco/Corriente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GestionBanco/CuentaBancaria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GestionBanco/CuentaBancaria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GestionBanco/SucursalBancaria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GestionBanco/SucursalBancaria.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +18,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -29,7 +38,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -41,6 +51,26 @@
       <option name="presentableId" value="Default" />
       <updated>1694381153801</updated>
     </task>
+    <task id="LOCAL-00001" summary="suo rama principal">
+      <created>1694381179608</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1694381179608</updated>
+    </task>
+    <task id="LOCAL-00002" summary="suo codigo creado automaticamente con el modelo uml">
+      <created>1694381427178</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1694381427178</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="suo rama principal" />
+    <MESSAGE value="suo codigo creado automaticamente con el modelo uml" />
+    <option name="LAST_COMMIT_MESSAGE" value="suo codigo creado automaticamente con el modelo uml" />
   </component>
 </project>

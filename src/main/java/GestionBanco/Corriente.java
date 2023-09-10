@@ -11,7 +11,8 @@ public class Corriente extends CuentaBancaria {
 		this.porcentajeReajusteAnual = porcentajeReajusteAnual;
 	}
 
-	public Corriente() {
-		throw new UnsupportedOperationException();
+	public Corriente(int numeroCuenta, String fechaApertura, int saldo, double porcentajeReajusteAnual) {
+		super(numeroCuenta, fechaApertura, saldo);
+		this.porcentajeReajusteAnual = porcentajeReajusteAnual;
 	}
 }

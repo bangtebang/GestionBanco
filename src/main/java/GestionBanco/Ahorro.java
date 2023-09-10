@@ -11,7 +11,8 @@ public class Ahorro extends CuentaBancaria {
 		this.lineaSobregiro = lineaSobregiro;
 	}
 
-	public Ahorro() {
-		throw new UnsupportedOperationException();
+	public Ahorro(int numeroCuenta, String fechaApertura, int saldo, int lineaSobregiro) {
+		super(numeroCuenta, fechaApertura, saldo);
+		this.lineaSobregiro = lineaSobregiro;
 	}
 }

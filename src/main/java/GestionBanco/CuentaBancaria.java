@@ -30,8 +30,9 @@ public abstract class CuentaBancaria {
 	public void setSaldo(int saldo) {
 		this.saldo = saldo;
 	}
-
-	public CuentaBancaria() {
-		throw new UnsupportedOperationException();
+	public CuentaBancaria(int numeroCuenta, String fechaApertura, int saldo) {
+		this.numeroCuenta = numeroCuenta;
+		this.fechaApertura = fechaApertura;
+		this.saldo = saldo;
 	}
-}
+	}

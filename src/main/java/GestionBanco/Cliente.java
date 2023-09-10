@@ -24,7 +24,8 @@ public class Cliente {
 		this.run = run;
 	}
 
-	public Cliente() {
-		throw new UnsupportedOperationException();
+	public Cliente(String nombre, int run) {
+		this.nombre = nombre;
+		this.run = run;
 	}
 }
