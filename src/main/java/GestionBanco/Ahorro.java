@@ -11,8 +11,8 @@ public class Ahorro extends CuentaBancaria {
 		this.lineaSobregiro = lineaSobregiro;
 	}
 
-	public Ahorro(int numeroCuenta, String fechaApertura, int saldo, int lineaSobregiro) {
-		super(numeroCuenta, fechaApertura, saldo);
+	public Ahorro(int numeroCuenta, String fechaApertura, int saldo, int lineaSobregiro, SucursalBancaria sucursalBancaria) {
+		super(numeroCuenta, fechaApertura, saldo, sucursalBancaria);
 		this.lineaSobregiro = lineaSobregiro;
 	}
 }

@@ -5,7 +5,6 @@ public abstract class CuentaBancaria {
 	private String fechaApertura;
 	private int saldo;
 	private SucursalBancaria sucursalBancaria;
-	private Cliente cliente;
 
 	public int getNumeroCuenta() {
 		return this.numeroCuenta;
@@ -30,9 +29,13 @@ public abstract class CuentaBancaria {
 	public void setSaldo(int saldo) {
 		this.saldo = saldo;
 	}
-	public CuentaBancaria(int numeroCuenta, String fechaApertura, int saldo) {
+	public CuentaBancaria(int numeroCuenta, String fechaApertura, int saldo,SucursalBancaria sucursalBancaria) {
 		this.numeroCuenta = numeroCuenta;
 		this.fechaApertura = fechaApertura;
 		this.saldo = saldo;
+		this.sucursalBancaria = sucursalBancaria;
+	}
+	public SucursalBancaria getSucursalBancaria() {
+		return sucursalBancaria;
 	}
 	}

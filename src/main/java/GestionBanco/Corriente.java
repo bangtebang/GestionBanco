@@ -1,6 +1,7 @@
 package GestionBanco;
 
 public class Corriente extends CuentaBancaria {
+
 	private double porcentajeReajusteAnual;
 
 	public double getPorcentajeReajusteAnual() {
@@ -11,8 +12,8 @@ public class Corriente extends CuentaBancaria {
 		this.porcentajeReajusteAnual = porcentajeReajusteAnual;
 	}
 
-	public Corriente(int numeroCuenta, String fechaApertura, int saldo, double porcentajeReajusteAnual) {
-		super(numeroCuenta, fechaApertura, saldo);
+	public Corriente(int numeroCuenta, String fechaApertura, int saldo,SucursalBancaria sucursalBancaria, double porcentajeReajusteAnual) {
+		super(numeroCuenta, fechaApertura, saldo, sucursalBancaria);
 		this.porcentajeReajusteAnual = porcentajeReajusteAnual;
 	}
 }

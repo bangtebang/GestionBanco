@@ -5,7 +5,7 @@ import GestionBanco.CuentaBancaria;
 
 public class Cliente {
 	private String nombre;
-	private int run;
+	private String run;
 	private ArrayList<CuentaBancaria> cuentasBancarias = new ArrayList<CuentaBancaria>();
 
 	public String getNombre() {
@@ -16,15 +16,20 @@ public class Cliente {
 		this.nombre = nombre;
 	}
 
-	public int getRun() {
+	public String getRun() {
 		return this.run;
 	}
 
-	public void setRun(int run) {
+	public void setRun(String run) {
 		this.run = run;
 	}
-
-	public Cliente(String nombre, int run) {
+	public ArrayList<CuentaBancaria> getCuentas() {
+		return cuentasBancarias;
+	}
+	public void agregarCuenta(CuentaBancaria cuenta) {
+		cuentasBancarias.add(cuenta);
+	}
+	public Cliente(String nombre, String run) {
 		this.nombre = nombre;
 		this.run = run;
 	}
